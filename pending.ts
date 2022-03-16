@@ -30,9 +30,8 @@ async function pendingTxCheck(rpc, userWallet) {
 
 		if (check) return true
 		return false
-	} catch (err) {
-
-	}
+		
+	} catch (err) {}
 
 }
 
